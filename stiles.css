@@ -12,6 +12,7 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 100px;
+  margin-bottom: 100px;
   background-color: var(--fourth-color);
 }
 @media (max-width: 576px) {
