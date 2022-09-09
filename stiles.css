@@ -97,7 +97,7 @@ p {
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: var(--secondary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
@@ -106,8 +106,8 @@ p {
 }
 
 .about-link {
-  color: var(--primary-color);
-  border: 0.0625em solid var(--primary-color);
+  color: var(--secondary-color);
+  border: 0.0625em solid var(--secondary-color);
 }
 
 .about-link:hover {
