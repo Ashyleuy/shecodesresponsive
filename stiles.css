@@ -3,7 +3,7 @@
   --secondary-color: #af3264;
   --third-color: #ff63b5;
   --fourth-color: #fcd1d1;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow: 0 0.3em 0.625em rgba(0, 0, 0, 0.3);
 }
 
 .bg-dark {
@@ -14,34 +14,55 @@ body {
   margin-top: 100px;
   background-color: var(--fourth-color);
 }
-
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.5em !important;
+  }
+  h2 {
+    font-size: 1.75em !important;
+    text-align: center !important;
+  }
+  h3 {
+    font-size: 1.25em !important;
+  }
+  p {
+    display: block;
+    text-align: center !important;
+    font-size: 0.75em !important;
+  }
+  .btn {
+    display: block !important;
+    text-align: center;
+  }
+}
 h1,
-h2,
 h3 {
-  text-align: center;
-  margin: 0;
+  display: block;
+  text-align: center !important;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 6em;
   color: var(--secondary-color);
 }
 
 h2 {
-  font-size: 48px;
+  text-align: left;
+  font-size: 2.5em;
   color: var(--secondary-color);
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.5em;
   opacity: 0.7;
 }
 
 p {
+  text-align: left;
   background: var(--fourth-color);
   color: var(--primary-color);
-  border-radius: 4px;
-  font-size: 18px;
+  border-radius: 0.25em;
+  font-size: 1.125em !important;
   line-height: 1.5;
 }
 
@@ -51,8 +72,8 @@ p {
   font-weight: 500;
   color: var(--fourth-color);
   background-color: var(--secondary-color);
-  padding: 20px 15px;
-  border-radius: 4px;
+  padding: 1.25em 1em;
+  border-radius: 0.25em;
   box-shadow: var(--box-shadow);
 }
 
@@ -61,15 +82,15 @@ p {
 }
 .navigation-links {
   display: flex;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
   justify-content: center;
 }
 
 .navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
+  margin: 1.25em;
+  border-radius: 0.25em;
+  padding: 1.25em 1em;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -85,7 +106,7 @@ p {
 
 .about-link {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  border: 0.0625em solid var(--primary-color);
 }
 
 .about-link:hover {
@@ -100,18 +121,18 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px 0;
+  margin: 1.875em 0;
 }
 
 .about-paragraphs p {
-  margin: 10px;
+  margin: 0.625em;
 }
 
 .email-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 1.75em;
   text-decoration: none;
 }
 
