@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #5f4444;
-  --secondary-color: #af3264;
-  --third-color: #ff63b5;
-  --fourth-color: #fcd1d1;
+  --primary-color: #668ba4;
+  --secondary-color: #97cba9;
+  --third-color: #dde0ab;
+  --fourth-color: #fbfcf0;
   --box-shadow: 0 0.3em 0.625em rgba(0, 0, 0, 0.3);
 }
 
@@ -44,13 +44,13 @@ h3 {
 
 h1 {
   font-size: 6em;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h2 {
   text-align: left;
   font-size: 2.5em;
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 h3 {
