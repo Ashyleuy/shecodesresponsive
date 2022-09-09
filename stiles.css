@@ -15,7 +15,7 @@ body {
   margin-bottom: 100px;
   background-color: var(--fourth-color);
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   h1 {
     font-size: 2.5em !important;
   }
